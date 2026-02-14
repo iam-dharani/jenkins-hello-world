@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    mvn '3912'
+    maven 'mvn 3912'
   }
   stages {
     stage('mvn version') {
